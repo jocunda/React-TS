@@ -39,6 +39,9 @@ p, a {
     margin: 5px 0px;
     width: 90%;
 }
+::placeholder {
+    padding-left: 15px;
+  }
 
 /* signup area */
 .sign-up>p{
