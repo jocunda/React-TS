@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-TS-Login/static/css/main.3c112009.chunk.css",
+    "main.js": "/React-TS-Login/static/js/main.64785cca.chunk.js",
+    "runtime-main.js": "/React-TS-Login/static/js/runtime-main.879d9b90.js",
+    "static/js/2.dd981818.chunk.js": "/React-TS-Login/static/js/2.dd981818.chunk.js",
+    "index.html": "/React-TS-Login/index.html",
+    "static/js/2.dd981818.chunk.js.LICENSE.txt": "/React-TS-Login/static/js/2.dd981818.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.879d9b90.js",
+    "static/js/2.dd981818.chunk.js",
+    "static/css/main.3c112009.chunk.css",
+    "static/js/main.64785cca.chunk.js"
+  ]
+}
