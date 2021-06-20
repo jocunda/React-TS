@@ -1,0 +1,68 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",  
+    "moduleResolution": "node",
+    "paths": {
+        "@global/*": [
+            "src/_global/js/*"
+        ],
+        "@style/*": [
+            "src/_global/styles/*"
+        ],
+        "@content/*": [
+            "src/components/content/*"
+        ],
+        "@dynamic/*": [
+            "src/components/dynamic/*"
+        ],
+        "@form/*": [
+            "src/components/form/*"
+        ],
+        "@constant/*": [
+            "src/constants/*"
+        ],
+        "@api/*": [
+            "src/apis/*"
+        ],
+        "@src/*": [
+            "src/*"
+        ],
+        "contexts": [
+            "src/contexts"
+        ],
+        "components": [
+            "src/components"
+        ],
+        "subjects": [
+            "src/subjects"
+        ],
+        "hooks": [
+            "src/hooks"
+        ],
+        "svgs": [
+            "src/svgs"
+        ],
+        "types": [
+            "src/types"
+        ]
+    }
+},
+"include": ["./src/**/*", "./__tests__/**/*"]
+}
